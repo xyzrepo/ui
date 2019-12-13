@@ -4,12 +4,13 @@
   "description": "Semantic UI + Nuxt.js",
   "license": "MIT",
   "contributors": [
-    {
-      "name": "Baker <root@baker.io>"
-    }
+    "Baker <root@baker.io>"
   ],
   "main": "lib/module.js",
-  "repository": "xyzrepo/ui",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xyzrepo/ui.git"
+  },
   "publishConfig": {
     "access": "public"
   },
@@ -22,7 +23,15 @@
   "files": [
     "lib"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "cash-dom": "^4.1.5",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.19.1",
+    "fomantic-ui-css": "^2.8.2",
+    "fs-extra": "^8.1.0",
+    "is-installed": "^2.0.1",
+    "jquery": "^3.4.1"
+  },
   "devDependencies": {
     "@babel/core": "latest",
     "@babel/preset-env": "latest",
@@ -32,7 +41,7 @@
     "babel-eslint": "latest",
     "babel-jest": "latest",
     "codecov": "latest",
-    "eslint": "latest",
+    "eslint": "^6.7.2",
     "get-port": "latest",
     "husky": "latest",
     "jest": "latest",
@@ -40,5 +49,15 @@
     "request": "latest",
     "request-promise-native": "latest",
     "standard-version": "latest"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/xyzrepo/ui/issues"
+  },
+  "homepage": "https://github.com/xyzrepo/ui#readme",
+  "directories": {
+    "example": "example",
+    "lib": "lib",
+    "test": "test"
+  },
+  "author": "Baker <root@baker.io> (http://xyz.dev/)"
 }
