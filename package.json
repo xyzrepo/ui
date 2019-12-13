@@ -1,6 +1,6 @@
 {
   "name": "@xyz/ui",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Semantic UI + Nuxt.js",
   "license": "MIT",
   "contributors": [
@@ -19,7 +19,9 @@
     "test": "yarn lint && jest",
     "release": "yarn test && standard-version && git push --follow-tags && npm publish"
   },
-  "files": ["lib"],
+  "files": [
+    "lib"
+  ],
   "dependencies": {},
   "devDependencies": {
     "@babel/core": "latest",
